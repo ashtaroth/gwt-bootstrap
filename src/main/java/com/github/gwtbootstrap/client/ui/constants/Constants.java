@@ -37,6 +37,8 @@ public interface Constants {
 
 	// Single use
 
+    public static final String BADGE = "badge";
+
 	public static final String BRAND = "brand";
 
 	public static final String CARET = "caret";
@@ -189,6 +191,10 @@ public interface Constants {
     public static final String ACCORDION_INNER = "accordion-inner";
 
     public static final String COLLAPSE = "collapse";
+    
+    public static final String NAV_COLLAPSE = "nav-collapse " + COLLAPSE;
+    
+	public static final String NAV_COLLAPSE_TARGET = ".nav-collapse";
 
     public static final String IN = "in";
 
